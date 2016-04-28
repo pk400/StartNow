@@ -3,4 +3,15 @@
     <string name="action_settings">Settings</string>
     <string name="your_goal">Your Goal</string>
     <string name="sit_ups">Sit Ups</string>
+    <string name="push_ups">Push Ups</string>
+    <string name="squats">Squats</string>
+    <string name="jumping_jacks">Jumping Jacks</string>
+    <string name="planks">Planks</string>
+    <string name="own_goal_popup">Want to do something else? Customize your own goal!</string>
+    <string name="record_popup">Confirm your goal here. Record yourself and show everyone you did it!</string>
+    <string name="activity_example">Don't know the exercise? Check it out here.</string>
+    <string name="username_error">That username is not available.</string>
+    <string name="password_error1">Password is too short.</string>
+    <string name="password_error2">Passwords do not match.</string>
+
 </resources>
