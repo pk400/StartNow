@@ -1,94 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.joel.startnow.MainActivity"
-    tools:showIn="@layout/activity_main"
-    android:weightSum="1">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/your_goal"
-        android:id="@+id/mainTextView"
-        android:textColor="#FF0000"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:gravity="center_vertical|center_horizontal" />
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:id="@+id/exampleImage"
-        android:layout_gravity="center_horizontal"
-        android:contentDescription="activity example" />
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/sit_ups"
-        android:id="@+id/activityText"
-        android:textColor="#000000"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:gravity="center_vertical|center_horizontal" />
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="10"
-        android:id="@+id/goalNumber"
-        android:textColor="#000000"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:gravity="center_vertical|center_horizontal" />
 
-    <VideoView
-        android:layout_width="fill_parent"
-        android:layout_height="178dp"
-        android:id="@+id/videoView"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="0.04" />
 
-    <LinearLayout
-        android:orientation="horizontal"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
-
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:id="@+id/imageView"
-            android:src="@drawable/fist"
-            android:contentDescription="fist bump" />
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.joel.startnow.MainActivity"
+        tools:showIn="@layout/activity_main"
+        android:weightSum="1">
 
         <TextView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="25"
-            android:id="@+id/numLikes" />
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/your_goal"
+            android:id="@+id/mainTextView"
+            android:textColor="#FF0000"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/exampleImage"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sit_ups"
+            android:id="@+id/activityText"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="10"
+            android:id="@+id/goalNumber"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="178dp"
+            android:id="@+id/videoView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/fist"
+                android:contentDescription="fist bump" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="25"
+                android:id="@+id/numLikes" />
+        </LinearLayout>
+
+        <ExpandableListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileCommentsView"
+            android:layout_gravity="center_horizontal" />
+
+
     </LinearLayout>
-
-    <ExpandableListView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/profileCommentsView"
-        android:layout_gravity="center_horizontal" />
-
-
-</LinearLayout>
