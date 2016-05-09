@@ -23,8 +23,18 @@ package="com.example.joel.startnow">
     </activity>
 
     <activity
-        android:name="com.example.joel.startnow.MainProfile" android:label="@string/title_activity_main_profile"
+        android:name="com.example.joel.startnow.MainProfile"
+        android:label="@string/title_activity_main_profile"
         android:theme="@style/AppTheme.NoActionBar">
     </activity>
+
+    <activity
+        android:name="com.example.joel.startnow.PubProfile"
+        android:label="@string/title_pub_profile"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+
+        
+
 </application>
 </manifest>
