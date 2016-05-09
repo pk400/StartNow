@@ -34,7 +34,7 @@ package="com.example.joel.startnow">
         android:theme="@style/AppTheme.NoActionBar">
     </activity>
 
-        
+
 
 </application>
 </manifest>
